@@ -1,0 +1,31 @@
+{
+  "name": "fifa-women-world-cup-slack-predictions",
+  "version": "1.0.0",
+  "description": "Slack App to predict FIFA Women's World Cup matches.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldineinzaghi/fifa-women-world-cup-slack-predictions"
+  },
+  "type": "module",
+  "keywords": [
+    "slack",
+    "app",
+    "fifa",
+    "women",
+    "cup",
+    "predictions",
+    "game"
+  ],
+  "author": "Geraldine Inzaghi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
